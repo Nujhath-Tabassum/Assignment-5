@@ -5,7 +5,8 @@
     "category": "Frontend",
     "level": "Beginner-Friendly",
     "rating": "4.9",
-    "badge": "Popular"
+    "badge": "Popular",
+    "logo":"/logos/icons8-react-native-48.png"
   },
   {
     "name": "Vue.js",
@@ -13,7 +14,8 @@
     "category": "Frontend",
     "level": "Beginner-Friendly",
     "rating": "4.8",
-    "badge": "Versatile"
+    "badge": "Versatile",
+    "logo":"/logos/icons8-vue-js-48.png"
   },
   {
     "name": "Svelte",
@@ -21,7 +23,8 @@
     "category": "Frontend",
     "level": "Intermediate",
     "rating": "4.8",
-    "badge": "Fast"
+    "badge": "Fast",
+    "logo":"/logos/icons8-svelte-48.png"
   },
   {
     "name": "Next.js",
@@ -29,7 +32,8 @@
     "category": "Frontend",
     "level": "Intermediate",
     "rating": "4.9",
-    "badge": ""
+    "badge": "",
+    "logo":"/logos/icons8-js-50.png"
   },
   {
     "name": "Node.js",
@@ -37,7 +41,8 @@
     "category": "Backend",
     "level": "Intermediate",
     "rating": "4.8",
-    "badge": "Standard"
+    "badge": "Standard",
+    "logo":"/logos/icons8-node-js-48.png"
   },
   {
     "name": "PostgreSQL",
@@ -45,7 +50,8 @@
     "category": "Database",
     "level": "Intermediate",
     "rating": "4.9",
-    "badge": "Top SQL"
+    "badge": "Top SQL",
+    "logo":"/logos/icons8-postgresql-24.png"
   },
   {
     "name": "Redis",
@@ -53,7 +59,8 @@
     "category": "Database",
     "level": "Intermediate",
     "rating": "4.8",
-    "badge": "Cache"
+    "badge": "Cache",
+    "logo":"/logos/icons8-redis-48.png"
   },
   {
     "name": "JavaScript",
@@ -61,7 +68,8 @@
     "category": "Language",
     "level": "Beginner-Friendly",
     "rating": "4.9",
-    "badge": "Ubiquitous"
+    "badge": "Ubiquitous",
+    "logo":"/logos/icons8-javascript-48.png"
   },
   {
     "name": "TypeScript",
@@ -69,7 +77,8 @@
     "category": "Language",
     "level": "Intermediate",
     "rating": "4.9",
-    "badge": "Essential"
+    "badge": "Essential",
+    "logo":"/logos/icons8-typescript-48.png"
   },
   {
     "name": "Java",
@@ -77,7 +86,8 @@
     "category": "Language",
     "level": "Intermediate",
     "rating": "4.6",
-    "badge": "Robust"
+    "badge": "Robust",
+    "logo":"/logos/icons8-java-94.png"
   },
   {
     "name": "Tailwind CSS",
@@ -85,7 +95,8 @@
     "category": "Styling",
     "level": "Beginner-Friendly",
     "rating": "4.9",
-    "badge": "Modern"
+    "badge": "Modern",
+    "logo":"/logos/icons8-tailwind-css-48.png"
   },
   {
     "name": "Docker",
@@ -93,6 +104,7 @@
     "category": "DevOps",
     "level": "Intermediate",
     "rating": "4.9",
-    "badge": "Containers"
+    "badge": "Containers",
+    "logo":"/logos/icons8-docker-24.png"
   }
 ]
