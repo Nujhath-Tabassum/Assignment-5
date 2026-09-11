@@ -23,26 +23,17 @@ function Technology({ TechnologyPromise }: TechnologyProps) {
 
             <div className="mb-8">
 
-                <div className="my-12">
-                    <h2 className="text-4xl font-bold">
-                        Explore the{" "}
-                        <span className="bg-gradient-to-r from-pink-600 to-purple-500 bg-clip-text text-transparent">
-                            Technologies
-                        </span>
-                    </h2>
+             <div className="my-12">
+            <h2 className="text-4xl font-bold">Explore the <span className="bg-gradient-to-r from-pink-600 to-purple-500 bg-clip-text text-transparent">Technologies</span></h2>
 
-                    <p className="my-2 text-sm text-gray-500">
-                        Pick one technology per catagory to build your ideal stack.
-                    </p>
+             <p className="my-2 text-sm text-gray-500"> Pick one technology per catagory to build your ideal stack </p>
                 </div>
 
 
                 <div className="grid grid-cols-4 gap-6">
 
                    
-                    <div className="col-span-3 grid grid-cols-3 gap-5">
-
-                        {technology.map((technology) => ( 
+          <div className="col-span-3 grid grid-cols-3 gap-5"> {technology.map((technology) => ( 
     <TechonologyCard 
         key={technology.name} 
         technology={technology} 
@@ -59,9 +50,7 @@ function Technology({ TechnologyPromise }: TechnologyProps) {
 
                         <div className="border border-gray-200 rounded-xl p-4 shadow-sm h-fit">
 
-                            <h2 className="text-lg font-semibold text-gray-900">
-                                Your Stack
-                            </h2>
+                         <h2 className="text-lg font-semibold text-gray-900"> Your Stack</h2>
 
                             <p className="text-xs text-gray-400 mt-1">
                                 {stack.length === 0
