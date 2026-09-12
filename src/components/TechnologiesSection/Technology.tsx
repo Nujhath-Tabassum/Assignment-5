@@ -90,7 +90,7 @@ const handleRemoveFromStack = (technology: TechnologyType) => {
                                             <button onClick={() => handleRemoveFromStack(technology)} className="ml-auto text-xl font-light text-gray-400 hover:text-gray-600"> ×</button>
 
                                         </div>))}
-                                    <button onClick={() => setStack([])}className="w-full mt-10 h-8 border border-red-300 rounded-lg text-sm font-medium text-red-500 hover:bg-red-50 transition">Remove All</button>
+                                    <button  onClick={() => {setStack([]);toast.info("Stack Cleared");}}className="w-full mt-10 h-8 border border-red-300 rounded-lg text-sm font-medium text-red-500 hover:bg-red-50 transition">Remove All</button>
 
                                 </div>
 
